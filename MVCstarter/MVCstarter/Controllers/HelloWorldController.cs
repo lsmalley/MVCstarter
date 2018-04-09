@@ -7,14 +7,17 @@ namespace MvcMovie.Controllers
     {
         // GET: HelloWorld
 
-        public string Index()
+        public ActionResult Index()
         {
-            return "This is my <b>default</b> action...";
+            return View();
         }
 
-        public string welcome(string name, int ID = 1)
+        public ActionResult welcome(string name, int numTimes = 1)
         {
-            return HttpUtility.HtmlEncode("Hello " + name + ", ID: " + ID);
+            ViewBag.Message = "Hello " + name;
+            ViewBag.NumTimes = numTimes;
+
+            return View();
         }
     }
 }
