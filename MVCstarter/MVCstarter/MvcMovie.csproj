@@ -158,6 +158,18 @@
     <Compile Include="Migrations\201804091413573_Initial.Designer.cs">
       <DependentUpon>201804091413573_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804091434370_Initial1.cs" />
+    <Compile Include="Migrations\201804091434370_Initial1.Designer.cs">
+      <DependentUpon>201804091434370_Initial1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804091443585_initial2.cs" />
+    <Compile Include="Migrations\201804091443585_initial2.Designer.cs">
+      <DependentUpon>201804091443585_initial2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804091451571_Mig3.cs" />
+    <Compile Include="Migrations\201804091451571_Mig3.Designer.cs">
+      <DependentUpon>201804091451571_Mig3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -226,6 +238,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201804091413573_Initial.resx">
       <DependentUpon>201804091413573_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804091434370_Initial1.resx">
+      <DependentUpon>201804091434370_Initial1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804091443585_initial2.resx">
+      <DependentUpon>201804091443585_initial2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804091451571_Mig3.resx">
+      <DependentUpon>201804091451571_Mig3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
