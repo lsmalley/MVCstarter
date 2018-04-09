@@ -170,6 +170,10 @@
     <Compile Include="Migrations\201804091451571_Mig3.Designer.cs">
       <DependentUpon>201804091451571_Mig3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804091536487_rating.cs" />
+    <Compile Include="Migrations\201804091536487_rating.Designer.cs">
+      <DependentUpon>201804091536487_rating.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -247,6 +251,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804091451571_Mig3.resx">
       <DependentUpon>201804091451571_Mig3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804091536487_rating.resx">
+      <DependentUpon>201804091536487_rating.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
